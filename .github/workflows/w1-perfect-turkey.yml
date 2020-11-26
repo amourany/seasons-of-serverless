@@ -29,4 +29,4 @@ jobs:
         # Path to package or folder. *.zip or a folder to deploy
         package: w1-perfect-turkey/target/w1-perfect-turkey-1.0-SNAPSHOT.jar
         # Publish profile (*.publishsettings) file contents with web deploy secrets
-        publish-profile: AZURE_FUNCTIONAPP_PUBLISH_PROFILE
+        publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
