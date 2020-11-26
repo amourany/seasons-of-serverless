@@ -27,6 +27,6 @@ jobs:
         # Name of the Azure Function App
         app-name: perfect-turkey-amou
         # Path to package or folder. *.zip or a folder to deploy
-        package: w1-perfect-turkey/target/w1-perfect-turkey-1.0-SNAPSHOT.jar
+        package: w1-perfect-turkey/target/azure-functions/perfect-turkey-amou.zip
         # Publish profile (*.publishsettings) file contents with web deploy secrets
         publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
